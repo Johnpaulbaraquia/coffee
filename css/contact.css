@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f1e4;
+    color: #333;
+}
+
+/* Navigation */
+nav {
+    background-color: #6f4e37;
+    padding: 15px;
+}
+
+nav ul.menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul.menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+/* Logout button */
+nav ul.menu li.logout {
+    margin-left: auto;
+}
+
+nav ul.menu li.logout a {
+    background-color: red;
+    border-radius: 5px;
+}
+
+nav ul.menu li.logout a:hover {
+    background-color: darkred;
+}
+
+/* Contact Section */
+.contact-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.contact-container h2 {
+    color: #6f4e37;
+}
+
+.contact-container p {
+    margin-bottom: 20px;
+}
+
+.contact-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-container label {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-container input,
+.contact-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-container button {
+    background-color: #6f4e37;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-container button:hover {
+    background-color: #54382a;
+}
